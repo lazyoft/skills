@@ -23,6 +23,8 @@ Outcome describes what will become possible. Not doing preserves what you decide
 How, roughly explains how the pieces connect. Use a diagram when it makes the flow easier to understand.
 
 Each requirement has an `R<n>` block: behavior and reason, followed by `Check:` with a concrete verification.
+For decisions that affect the outcome, preserve the reasons for the choice and the accepted consequences in the requirement's prose.
+State who decided or which delegation was exercised.
 Each task has a `T<n>` block with `Ask:`, `Covers:`, and `Depends:`.
 
 - `Ask:` states what to build.
@@ -36,6 +38,9 @@ A task integrates a usable part of the outcome. Prefer fewer tasks and separate 
 Do not add a format version, glossary, technical appendix, or open-questions section.
 Resolve decisions in the interview. Record delegated choices and their boundaries in the relevant requirement's prose.
 A verification criterion describes a check to perform. Building a permanent tool for that check remains a choice to discuss within delegated authority.
+
+If you considered and rejected assumptions or alternatives, collect them after the sources in an appendix titled "Assumptions considered and rejected".
+For each one, state what you considered and why you rejected it.
 
 ## Template
 

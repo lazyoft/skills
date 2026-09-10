@@ -33,14 +33,18 @@ Percorri l'albero delle decisioni fino a raggiungere una comprensione condivisa.
 - Fai sempre domande aperte, mai chiuse. Non chiedere risposte sì/no né una scelta limitata alle alternative presentate. Non usare widget di scelta.
 - Una risposta aperta può far emergere nuove informazioni. Usale per esplorare nuovi scenari o riaprire bivi e decisioni già discussi.
 - Presenta gli scenari non confermati come ipotesi: «Se succedesse X, che cosa servirebbe all’utente?». Non darli per abituali.
+- Distingui fatti del dominio, ipotesi, esempi e decisioni. Quando una scelta dipende da un’ipotesi, rendila esplicita e approfondiscila con l’utente.
+- Un esempio usato per ragionare diventa un requisito solo quando l’utente lo conferma.
 - Esplora il bisogno senza presupporre una soluzione. La domanda deve lasciare possibile che non serva alcuna funzione o limitazione aggiuntiva.
-- Quando una decisione ha più alternative sensate, spiegane le conseguenze e confrontale sugli stessi criteri, legati alle esigenze dell'utente.
+- Ricava i criteri dagli obiettivi e dal contesto dell’utente. Chiarisci quali contano maggiormente quando entrano in conflitto.
+- Quando una decisione ha più alternative sensate, confrontale sugli stessi criteri, mostrando vantaggi, svantaggi e informazioni mancanti.
 - Non raccomandare un'alternativa. Lascia la scelta all'utente e aspetta la sua risposta.
 - Evita preamboli e resoconti del processo. Aggiungi ragionamenti solo quando aiutano a decidere.
 - Usa esempi concreti del dominio. Parti dall'effetto per chi usa il risultato. Entra nei dettagli tecnici quando servono.
 - Risolvi prima la decisione da cui dipendono le altre. Se una risposta chiude un ramo, elimina le domande diventate inutili.
 - Rispondi con i fatti quando il codice contiene già la risposta. Usa l'intervista per le decisioni dell'utente.
 - Se stai per assumere una scelta non risolta, chiedila. Una delega esplicita e circoscritta può risolvere il punto.
+- Se una risposta richiede di osservare o provare qualcosa, individua la verifica necessaria. Usa il risultato per proseguire l’intervista, senza sostituirlo con una supposizione.
 - Se l'utente vuole fare brainstorming, discuti con lui prima di scrivere la specifica.
 
 Esamina questi aspetti quando riguardano la richiesta:

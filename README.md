@@ -26,6 +26,7 @@ The result is one Markdown file containing:
 - Requirements with concrete checks.
 - Tasks linked to those requirements, with dependencies.
 - The sources used during the interview.
+- An appendix of assumptions and alternatives considered and rejected, when applicable.
 
 The specification is the output. Implementation follows as a separate step when you request it.
 

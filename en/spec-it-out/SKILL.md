@@ -33,14 +33,18 @@ Walk the decision tree until you reach shared understanding.
 - Always ask open questions, never closed questions. Do not ask for yes/no answers or restrict the choice to the alternatives presented. Do not use choice widgets.
 - An open answer can reveal new information. Use it to explore new scenarios or revisit branches and decisions already discussed.
 - Present unconfirmed scenarios as hypotheses: "If X happened, what would the user need?" Do not assume they are common.
+- Distinguish domain facts, assumptions, examples, and decisions. When a choice depends on an assumption, make it explicit and explore it with the user.
+- An example used for reasoning becomes a requirement only when the user confirms it.
 - Explore the need without presupposing a solution. The question must leave room for no additional feature or restriction being needed.
-- When a decision has several reasonable alternatives, explain their consequences and compare them against the same criteria, grounded in the user's needs.
+- Derive criteria from the user's goals and context. Clarify which matter most when they conflict.
+- When a decision has several reasonable alternatives, compare them against the same criteria, showing advantages, disadvantages, and missing information.
 - Do not recommend an alternative. Leave the choice to the user and wait for their answer.
 - Avoid preambles and narration of the process. Add reasoning only when it helps the user decide.
 - Use concrete domain examples. Start with the effect on the person using the result. Introduce technical details when needed.
 - Resolve the decision that constrains the others first. When an answer closes a branch, drop questions that no longer apply.
 - Answer with facts when the code contains the answer. Use the interview for the user's decisions.
 - If you are about to assume an unresolved choice, ask. An explicit, bounded delegation can settle the point.
+- If an answer requires observing or trying something, identify the necessary check. Use its result to continue the interview, without substituting an assumption.
 - If the user wants to brainstorm, discuss the idea before writing the specification.
 
 Examine these aspects when they apply to the request:

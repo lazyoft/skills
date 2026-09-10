@@ -23,6 +23,8 @@ Il risultato descrive ciò che sarà possibile. Le esclusioni conservano ciò ch
 L'approccio spiega come le parti si collegano. Usa un diagramma quando rende il percorso più comprensibile.
 
 Ogni requisito ha un blocco `R<n>`: comportamento e motivo, seguiti da `Check:` con una verifica concreta.
+Per le decisioni che incidono sul risultato, conserva nella prosa del requisito le ragioni della scelta e le conseguenze accettate.
+Indica chi ha deciso o quale delega è stata esercitata.
 Ogni task ha un blocco `T<n>` con `Ask:`, `Covers:` e `Depends:`.
 
 - `Ask:` dice cosa costruire.
@@ -36,6 +38,9 @@ Un task integra una parte utilizzabile. Preferisci pochi task e separa solo modi
 Non aggiungere una versione del formato, un glossario, un'appendice tecnica o una sezione di domande aperte.
 Risolvi le decisioni nell'intervista. Registra le deleghe e i loro limiti nella prosa del requisito pertinente.
 Un criterio di verifica descrive una prova da svolgere. Costruire uno strumento permanente per quella prova resta una scelta da discutere entro la delega.
+
+Se avete valutato e scartato ipotesi o alternative, raccoglile dopo le fonti nell’appendice «Ipotesi valutate e scartate».
+Per ciascuna, indica cosa avete valutato e perché l’avete scartata.
 
 ## Modello
 
