@@ -14,7 +14,8 @@ Each skill contains instructions and supporting material that an agent can use i
 
 Start with an idea, an existing plan, or a requirements document. The agent reads the available material and asks one question at a time.
 
-The interview explores the decisions that affect the result. The agent offers a recommendation for each question and distinguishes its proposals from your choices.
+The interview explores the decisions that affect the result. The agent compares reasonable alternatives against the same criteria, grounded in your needs.
+It explains their consequences without recommending an alternative. You make the choice.
 It also discusses how to divide the work into tasks. You review the decisions before it writes the specification.
 
 The result is one Markdown file containing:

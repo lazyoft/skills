@@ -31,7 +31,8 @@ Percorri l'albero delle decisioni fino a raggiungere una comprensione condivisa.
 - Apri il turno con una domanda completa e comprensibile senza rileggere la conversazione.
 - Fai una domanda per turno. Rimani sullo stesso punto finché è risolto.
 - Usa domande aperte. Evita menu di risposte e widget di scelta.
-- Per ogni domanda, fornisci la tua raccomandazione con il motivo. Aspetta la risposta dell'utente.
+- Quando una decisione ha più alternative sensate, spiegane le conseguenze e confrontale sugli stessi criteri, legati alle esigenze dell'utente.
+- Non raccomandare un'alternativa. Lascia la scelta all'utente e aspetta la sua risposta.
 - Evita preamboli e resoconti del processo. Aggiungi ragionamenti solo quando aiutano a decidere.
 - Usa esempi concreti del dominio. Parti dall'effetto per chi usa il risultato. Entra nei dettagli tecnici quando servono.
 - Risolvi prima la decisione da cui dipendono le altre. Se una risposta chiude un ramo, elimina le domande diventate inutili.
@@ -53,7 +54,7 @@ Esamina questi aspetti quando riguardano la richiesta:
 ## Concorda la divisione in task
 
 Prima del riepilogo, chiedi come dividere il lavoro. La divisione decide cosa può procedere insieme e cosa deve aspettare.
-Presenta la tua proposta e le conseguenze. L'utente può modificarla o delegarti il taglio con limiti espliciti.
+Spiega le conseguenze delle possibili divisioni. L'utente sceglie o ti delega la divisione con limiti espliciti.
 
 Un task consegna una parte utilizzabile del risultato e può essere integrato come modifica autonoma.
 Preferisci pochi task. Dividi solo parti realmente separabili. Una divisione per soli strati tecnici lascia ogni task in attesa degli altri.

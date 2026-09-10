@@ -31,7 +31,8 @@ Walk the decision tree until you reach shared understanding.
 - Open each turn with a complete question that the user can answer without rereading the conversation.
 - Ask one question per turn. Stay on that point until it is resolved.
 - Ask open questions. Avoid answer menus and choice widgets.
-- For each question, provide your recommendation and its reason. Wait for the user's answer.
+- When a decision has several reasonable alternatives, explain their consequences and compare them against the same criteria, grounded in the user's needs.
+- Do not recommend an alternative. Leave the choice to the user and wait for their answer.
 - Avoid preambles and narration of the process. Add reasoning only when it helps the user decide.
 - Use concrete domain examples. Start with the effect on the person using the result. Introduce technical details when needed.
 - Resolve the decision that constrains the others first. When an answer closes a branch, drop questions that no longer apply.
@@ -53,7 +54,7 @@ Examine these aspects when they apply to the request:
 ## Agree on the task breakdown
 
 Before the recap, ask how to divide the work. The breakdown decides what can proceed together and what must wait.
-Present your proposal and its consequences. The user can change it or delegate the breakdown with explicit boundaries.
+Explain the consequences of the possible breakdowns. The user chooses or delegates the breakdown with explicit boundaries.
 
 A task delivers a usable part of the outcome and can be integrated as an independent change.
 Prefer fewer tasks. Split only genuinely separable pieces. A breakdown into technical layers leaves each task waiting for the others.
