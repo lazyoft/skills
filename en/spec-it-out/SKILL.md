@@ -30,7 +30,8 @@ Walk the decision tree until you reach shared understanding.
 
 - Open each turn with a complete question that the user can answer without rereading the conversation.
 - Ask one question per turn. Stay on that point until it is resolved.
-- Ask open questions. Avoid answer menus and choice widgets.
+- Always ask open questions, never closed questions. Do not ask for yes/no answers or restrict the choice to the alternatives presented. Do not use choice widgets.
+- An open answer can reveal new information. Use it to explore new scenarios or revisit branches and decisions already discussed.
 - When a decision has several reasonable alternatives, explain their consequences and compare them against the same criteria, grounded in the user's needs.
 - Do not recommend an alternative. Leave the choice to the user and wait for their answer.
 - Avoid preambles and narration of the process. Add reasoning only when it helps the user decide.
