@@ -32,6 +32,8 @@ Percorri l'albero delle decisioni fino a raggiungere una comprensione condivisa.
 - Fai una domanda per turno. Rimani sullo stesso punto finché è risolto.
 - Fai sempre domande aperte, mai chiuse. Non chiedere risposte sì/no né una scelta limitata alle alternative presentate. Non usare widget di scelta.
 - Una risposta aperta può far emergere nuove informazioni. Usale per esplorare nuovi scenari o riaprire bivi e decisioni già discussi.
+- Presenta gli scenari non confermati come ipotesi: «Se succedesse X, che cosa servirebbe all’utente?». Non darli per abituali.
+- Esplora il bisogno senza presupporre una soluzione. La domanda deve lasciare possibile che non serva alcuna funzione o limitazione aggiuntiva.
 - Quando una decisione ha più alternative sensate, spiegane le conseguenze e confrontale sugli stessi criteri, legati alle esigenze dell'utente.
 - Non raccomandare un'alternativa. Lascia la scelta all'utente e aspetta la sua risposta.
 - Evita preamboli e resoconti del processo. Aggiungi ragionamenti solo quando aiutano a decidere.
