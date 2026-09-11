@@ -9,6 +9,7 @@ Each skill contains instructions and supporting material that an agent can use i
 | Skill | What it does | English | Italiano |
 | --- | --- | --- | --- |
 | Spec it out | Interviews you about a feature and produces a specification with requirements, checks, and tasks. | [Read the skill](en/spec-it-out/SKILL.md) | [Leggi lo skill](it/spec-it-out/SKILL.md) |
+| Therapist | Opens a session with you when work with an agent went wrong. | [Read the skill](en/therapist/SKILL.md) | [Leggi lo skill](it/therapist/SKILL.md) |
 
 ## Spec it out
 
@@ -33,10 +34,14 @@ The specification is the output. Implementation follows as a separate step when 
 The writing instructions use practical principles from [ASD-STE100 Simplified Technical English](https://www.asd-ste100.org/STE_faq.html): short sentences, active voice, consistent terms, and concrete behavior.
 The Italian version adapts these principles to Italian.
 
+## Therapist
+
+Launch it in the conversation where the work went wrong. The therapist starts from what happened there and closes the session after a few exchanges.
+
 ## Use a skill
 
-Choose the language you want for the interview and the document. Copy the complete `spec-it-out` folder into your agent's skills directory.
-Keep `reference/spec-format.md` alongside `SKILL.md`. Both language versions use the same skill name, so install the version you want to use.
+Choose the language you want for the interview and the document. Copy the complete skill folder into your agent's skills directory.
+For Spec it out, keep `reference/spec-format.md` alongside `SKILL.md`. Both language versions use the same skill name, so install the version you want to use.
 
 Ask your agent to use the skill with your request. For example:
 
@@ -54,9 +59,13 @@ If your agent does not support skill discovery, give it `SKILL.md` and the refer
 en/spec-it-out/
   SKILL.md
   reference/spec-format.md
+en/therapist/
+  SKILL.md
 it/spec-it-out/
   SKILL.md
   reference/spec-format.md
+it/therapist/
+  SKILL.md
 ```
 
 ## License
