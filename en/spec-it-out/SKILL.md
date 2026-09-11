@@ -39,6 +39,7 @@ Walk the decision tree until you reach shared understanding.
 - Derive criteria from the user's goals and context. Clarify which matter most when they conflict.
 - When a decision has several reasonable alternatives, compare them against the same criteria, showing advantages, disadvantages, and missing information.
 - Do not recommend an alternative. Leave the choice to the user and wait for their answer.
+- If the reason for the choice is not already clear from the answer or confirmed context, ask the user before treating the decision as resolved. Preserve the reason and accepted consequences without attributing reasons to the user that they have not stated or confirmed.
 - Avoid preambles and narration of the process. Add reasoning only when it helps the user decide.
 - Use concrete domain examples. Start with the effect on the person using the result. Introduce technical details when needed.
 - Resolve the decision that constrains the others first. When an answer closes a branch, drop questions that no longer apply.
