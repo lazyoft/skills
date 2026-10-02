@@ -41,7 +41,9 @@ Use risk analysis to choose the next iteration of a software project. The agent 
 
 The skill stops at the proposal. Accepting it records an accepted proposal; it does not start implementation. Specifications and an interview follow when you request them separately, before implementation.
 
-The analysis record in `ITERATIONS.md` keeps both the current state and the history of risks, decisions, and evidence. Later sessions revisit earlier risks instead of starting from scratch. The skill writes only its analysis record; it does not write code, prototypes, or tests.
+The analysis record is `ITERATIONS.md`, with the fixed title `# ITERATIONS`. It contains a shared risk list and a chronological list of numbered iteration cards. New iterations append a card; earlier entries remain. Risks keep stable identifiers across iterations. The skill writes only its analysis record; it does not write code, prototypes, or tests.
+
+Each card uses the agreed two-column, seven-row format: objective, alternatives and impacts, risk, test and criterion, scope, result, and decision with follow-up. It is a practical adaptation of Boehm's one-page risk plan and risk tracking, not a literal reproduction. A card normally fits in 100–180 words, with source references instead of copied technical detail. Planned tests stay proposed, and outcomes remain pending until evidence is supplied.
 
 The dialogue uses domain language and practical ASD-STE100 principles, adapted for Italian. Each language version is one self-contained `SKILL.md`.
 
