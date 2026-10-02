@@ -41,7 +41,7 @@ Use risk analysis to choose the next iteration of a software project. The agent 
 
 The skill stops at the proposal. Accepting it records an accepted proposal; it does not start implementation. Specifications and an interview follow when you request them separately, before implementation.
 
-The analysis record in `ITERAZIONI.md` keeps both the current state and the history of risks, decisions, and evidence. Later sessions revisit earlier risks instead of starting from scratch. The skill writes only its analysis record; it does not write code, prototypes, or tests.
+The analysis record in `ITERATIONS.md` keeps both the current state and the history of risks, decisions, and evidence. Later sessions revisit earlier risks instead of starting from scratch. The skill writes only its analysis record; it does not write code, prototypes, or tests.
 
 The dialogue uses domain language and practical ASD-STE100 principles, adapted for Italian. Each language version is one self-contained `SKILL.md`.
 

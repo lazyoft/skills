@@ -53,7 +53,7 @@ Scrivi secondo i principi di ASD-STE100 adattati all'italiano: frasi brevi, voce
 
 ## Il registro
 
-Tieni il registro di analisi in `ITERAZIONI.md`. Il registro permette di riprendere senza ricominciare da zero. Contiene ciò che esiste solo nel ragionamento e nella conversazione. Ciò che esiste già nel codice o nei documenti resta lì: nel registro basta un rimando.
+Tieni il registro di analisi in `ITERATIONS.md`. Il registro permette di riprendere senza ricominciare da zero. Contiene ciò che esiste solo nel ragionamento e nella conversazione. Ciò che esiste già nel codice o nei documenti resta lì: nel registro basta un rimando.
 
 Il registro descrive ciò che è successo, non ciò che si prevede. Una proposta accettata è accettata: non è ancora iniziata. Lo stato di un'iterazione cambia solo quando la persona riferisce un fatto nuovo.
 

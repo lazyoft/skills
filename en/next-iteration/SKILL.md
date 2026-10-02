@@ -53,7 +53,7 @@ Write according to the principles of ASD-STE100: short sentences, active voice, 
 
 ## The log
 
-Keep the analysis log in `ITERAZIONI.md`. The log lets you resume without starting from scratch. It contains what exists only in the reasoning and in the conversation. What already exists in the code or in the documents stays there: in the log a reference is enough.
+Keep the analysis log in `ITERATIONS.md`. The log lets you resume without starting from scratch. It contains what exists only in the reasoning and in the conversation. What already exists in the code or in the documents stays there: in the log a reference is enough.
 
 The log describes what happened, not what is expected. An accepted proposal is accepted: it has not started yet. The status of an iteration changes only when the person reports a new fact.
 
