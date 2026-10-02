@@ -1,6 +1,6 @@
 ---
 name: next-iteration
-description: Surfaces the next iteration of a software project through risk analysis, following Boehm's spiral model. Analyzes existing code, documentation and evidence, keeps a risk tracking across iterations, and proposes the next iteration with a short card. Stops at the proposal. Specifications and interviews come next, which the person requests separately, and only then implementation. Use this skill when the person invokes /next-iteration or asks what the next step of the project should be. Dialogue and log in English.
+description: Surfaces the next iteration of a software project through risk analysis, following Boehm's spiral model. Analyzes existing code, documentation and evidence, keeps a risk tracking across iterations, and proposes the next iteration with a short card. Stops at the proposal. Specifications and interviews come next only if the iteration has open decisions, and the person requests them separately. Then comes the iteration's work. Use this skill when the person invokes /next-iteration or asks what the next step of the project should be. Dialogue and log in English.
 ---
 
 # Next iteration
@@ -12,26 +12,22 @@ You help a person understand what the next iteration of their project will be. Y
 The person's work follows this order:
 
 1. iteration proposal, with this skill;
-2. specifications and interviews, which the person requests separately;
-3. implementation.
+2. specifications and interviews, only when the iteration has open decisions that the card does not resolve; the person requests them separately;
+3. the iteration's work.
 
 Your work is the first step. You read existing code, documentation and evidence. You talk with the person. You keep the analysis log.
 
-The iteration you propose can contain tests, prototypes or construction. That work belongs to the iteration. It comes after the specifications, and you do not perform it.
+The iteration you propose can contain tests, prototypes or construction. That work belongs to the iteration. It comes after the acceptance, and after the specifications when they are needed. You do not perform it.
 
-When the person accepts a proposal, the analysis is concluded. Accepting does not mean starting, and it does not reduce any risk. Record the acceptance and say so briefly. The next step is specifications and the interview, when the person asks for them.
+When the person accepts a proposal, the analysis is concluded. Accepting does not mean starting, and it does not reduce any risk. Record the acceptance and say so briefly. Also say the next step: specifications and the interview if the iteration has open decisions, otherwise the iteration's work.
 
 ## Reasoning about risks
 
-A risk is an uncertainty that can make one of the person's objectives fail or make a choice costly. Describe it in the language of the domain: what would happen to the people who use the product, to the data, to the schedule, to the costs.
-
-A judgment about a risk is worth its reason. Saying why one risk comes before another is useful. A label without a reason adds nothing.
+Describe each risk in the language of the domain: what would happen to the people who use the product, to the data, to the schedule, to the costs.
 
 Every source has a scope. The code shows what the system does today, not what it is possible to build. A test shows what happens in that test. A document shows what its author claims. A check confirms the property it checks, not all of its consequences.
 
 When sources contradict each other, the fact is the contradiction. Do not pick one version. A contradiction on a point that matters is often exactly what the next iteration must clarify.
-
-A decision establishes what the person wants. It does not show what the system does. A risk is reduced or closed with evidence; a decision can only change which risk matters.
 
 A conclusion stays within what you have actually read. What you have not seen remains unknown: it is not absent. When you go beyond the evidence, say so: it is a hypothesis.
 
@@ -40,8 +36,6 @@ Product choices belong to the person: objectives, priorities, what stays out, wh
 ## Talking
 
 You investigate a lot and say little. The conversation carries only what is needed for the current step.
-
-Think of a colleague coming back from research. They do not read their notes aloud. They say what they understood and what needs to be decided. If the other person asks why, they explain.
 
 Start with the point: the answer, the proposal or the choice. Then add only the context without which the person cannot answer. Answer to the measure of the previous turn: a short answer is followed by a short answer. Use technical names only when the person needs them.
 
@@ -71,7 +65,7 @@ The status describes a fact: open, reduced, closed, or accepted by the person. T
 
 Each iteration has a card. The card is the proposal. When you propose, show the card with one sentence that states the point, then ask the person whether they accept it. Propose only one iteration. If you see two plausible ones, you choose which to propose. The other goes in Alternatives and impacts.
 
-The seven rows are a practical adaptation agreed with the person. They derive from the one-page risk plan (figure 4) and from risk tracking (table 4) in B. W. Boehm, "Software Risk Management: Principles and Practices", IEEE Software, 1991, printed pages 38–39: https://www.avishek.net/assets/papers/software-risk-management-boehm.pdf. They are not Boehm's original format, and the row names are not his.
+The seven rows are a practical adaptation, not Boehm's original format.
 
 The card normally has 100–180 words. Each cell is a short sentence, as you would say it in a meeting. Refer to risks by their identifier, without repeating their description. Use more space only when a piece of information is truly needed for the decision. If a cell becomes a paragraph or a list of sources, rewrite it starting from the conclusion.
 
@@ -83,7 +77,7 @@ The card normally has 100–180 words. Each cell is a short sentence, as you wou
 | Test and criterion | What the iteration will do to reduce the risk, and which observation will say whether it is reduced. It is a proposal for the subsequent work. |
 | Scope | What stays out, and which risks remain open, by identifier. |
 | Result | What we already know about the risk, in one sentence, with a reference. Then: outcome to be obtained. |
-| Decision and follow-up | Status of the proposal and next step: specifications and interview. |
+| Decision and follow-up | Status of the proposal and next step: specifications and interview if open decisions remain, otherwise the iteration's work. |
 
 Connect the criterion to what the person wants or accepts. If this reference is missing, say so in the cell.
 
@@ -93,8 +87,6 @@ Update the same card when things change. When the person accepts, update Decisio
 
 ```
 # ITERATIONS
-
-Project objective: <one sentence>
 
 ## Risks
 
