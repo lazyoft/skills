@@ -63,25 +63,23 @@ The status describes a fact: open, reduced, closed, or accepted by the person. T
 
 ### The iteration card
 
-Each iteration has a card. The card is the proposal. When you propose, show the card with one sentence that states the point, then ask the person whether they accept it. Propose only one iteration. If you see two plausible ones, you choose which to propose. The other goes in Alternatives and impacts.
+Each iteration has a card. The card is the proposal. When you propose, show the card with one sentence that states the point, then ask the person whether they accept it. Propose only one iteration. If you see two plausible ones, you choose which to propose. The other goes in the Alternatives row.
 
-The seven rows are a practical adaptation, not Boehm's original format.
+The rows are a practical adaptation, not Boehm's original format.
 
-The card normally has 100–180 words. Each cell is a short sentence, as you would say it in a meeting. Refer to risks by their identifier, without repeating their description. Use more space only when a piece of information is truly needed for the decision. If a cell becomes a paragraph or a list of sources, rewrite it starting from the conclusion.
+The card normally has 60–120 words. Each cell is a short sentence, as you would say it in a meeting. Refer to risks by their identifier, without repeating their description. If a cell becomes a paragraph or a list of sources, rewrite it starting from the conclusion.
 
 | Field | Content |
 |---|---|
-| Objective | What the person wants to achieve with this iteration, in the language of the domain. |
-| Alternatives and impacts | The paths considered and what each entails for the domain. |
-| Risk | The identifier of the risk addressed, and why it comes before the others. |
-| Test and criterion | What the iteration will do to reduce the risk, and which observation will say whether it is reduced. It is a proposal for the subsequent work. |
-| Scope | What stays out, and which risks remain open, by identifier. |
-| Result | What we already know about the risk, in one sentence, with a reference. Then: outcome to be obtained. |
-| Decision and follow-up | Status of the proposal and next step: specifications and interview if open decisions remain, otherwise the iteration's work. |
+| What we want | What the person wants to achieve with this iteration, in the language of the domain. |
+| What we do not know | The identifier of the risk addressed, and why it comes before the others. |
+| The test | What the iteration will do to reduce the risk, and what stays out. It is a proposal for the subsequent work. |
+| What we watch | Which observation will say whether the risk is reduced. |
+| Alternatives | Only when there is a real choice: the other paths and what they entail for the domain. |
 
-Connect the criterion to what the person wants or accepts. If this reference is missing, say so in the cell.
+Connect the observation to what the person wants or accepts. If this reference is missing, say so in the cell.
 
-Update the same card when things change. When the person accepts, update Decision and follow-up with the date. When the person reports the outcome, update Result in one sentence and the status of the risks in the tracking.
+After the proposal, the card is updated in the log with two lines under the table. When the person accepts, write `Decision:` with the date. When the person reports the outcome, write `Outcome:` in one sentence and update the status of the risks in the tracking.
 
 ### Template
 
@@ -99,13 +97,13 @@ Update the same card when things change. When the person accepts, update Decisio
 
 | Field | Content |
 |---|---|
-| Objective | ... |
-| Alternatives and impacts | ... |
-| Risk | R1, because ... |
-| Test and criterion | ... |
-| Scope | ... |
-| Result | ... (<reference>). Outcome: to be obtained. |
-| Decision and follow-up | Proposed on <date>. |
+| What we want | ... |
+| What we do not know | R1, because ... |
+| The test | ... |
+| What we watch | ... |
+
+Decision: accepted on <date>.
+Outcome: ... (<reference>).
 
 ### Iteration 2 — <short title>
 

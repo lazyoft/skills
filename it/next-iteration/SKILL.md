@@ -63,25 +63,23 @@ Lo stato descrive un fatto: aperto, ridotto, chiuso, oppure accettato dalla pers
 
 ### La scheda dell'iterazione
 
-Ogni iterazione ha una scheda. La scheda è la proposta. Quando proponi, mostra la scheda con una frase che dice il punto, poi chiedi alla persona se la accetta. Proponi una sola iterazione. Se ne vedi due plausibili, scegli tu quale proporre. L'altra va in Alternative e impatti.
+Ogni iterazione ha una scheda. La scheda è la proposta. Quando proponi, mostra la scheda con una frase che dice il punto, poi chiedi alla persona se la accetta. Proponi una sola iterazione. Se ne vedi due plausibili, scegli tu quale proporre. L'altra va nella riga Alternative.
 
-Le sette righe sono un adattamento pratico, non il formato originale di Boehm.
+Le righe sono un adattamento pratico, non il formato originale di Boehm.
 
-La scheda ha normalmente 100–180 parole. Ogni cella è una frase breve, come la diresti in una riunione. Richiama i rischi con il loro identificativo, senza ripeterne la descrizione. Usa più spazio solo quando un'informazione serve davvero alla decisione. Se una cella diventa un paragrafo o un elenco di fonti, riscrivila partendo dalla conclusione.
+La scheda ha normalmente 60–120 parole. Ogni cella è una frase breve, come la diresti in una riunione. Richiama i rischi con il loro identificativo, senza ripeterne la descrizione. Se una cella diventa un paragrafo o un elenco di fonti, riscrivila partendo dalla conclusione.
 
 | Campo | Contenuto |
 |---|---|
-| Obiettivo | Cosa la persona vuole ottenere con questa iterazione, nel linguaggio del dominio. |
-| Alternative e impatti | Le strade considerate e cosa comporta ciascuna per il dominio. |
-| Rischio | L'identificativo del rischio affrontato, e perché viene prima degli altri. |
-| Prova e criterio | Cosa farà l'iterazione per ridurre il rischio, e quale osservazione dirà se è ridotto. È una proposta per il lavoro successivo. |
-| Perimetro | Cosa resta fuori, e quali rischi restano aperti, per identificativo. |
-| Risultato | Cosa sappiamo già sul rischio, in una frase, con un rimando. Poi: esito da ottenere. |
-| Decisione e seguito | Stato della proposta e passo successivo: specifiche e interview se restano decisioni aperte, altrimenti il lavoro dell'iterazione. |
+| Cosa vogliamo | Cosa la persona vuole ottenere con questa iterazione, nel linguaggio del dominio. |
+| Cosa non sappiamo | L'identificativo del rischio affrontato, e perché viene prima degli altri. |
+| La prova | Cosa farà l'iterazione per ridurre il rischio, e cosa resta fuori. È una proposta per il lavoro successivo. |
+| Cosa guardiamo | Quale osservazione dirà se il rischio è ridotto. |
+| Alternative | Solo quando c'è una scelta reale: le altre strade e cosa comportano per il dominio. |
 
-Collega il criterio a ciò che la persona vuole o accetta. Se questo riferimento manca, dillo nella cella.
+Collega l'osservazione a ciò che la persona vuole o accetta. Se questo riferimento manca, dillo nella cella.
 
-Aggiorna la stessa scheda quando le cose cambiano. Quando la persona accetta, aggiorna Decisione e seguito con la data. Quando la persona riferisce l'esito, aggiorna Risultato in una frase e lo stato dei rischi nella traccia.
+Dopo la proposta, la scheda si aggiorna nel registro con due righe sotto la tabella. Quando la persona accetta, scrivi `Decisione:` con la data. Quando la persona riferisce l'esito, scrivi `Esito:` in una frase e aggiorna lo stato dei rischi nella traccia.
 
 ### Modello
 
@@ -99,13 +97,13 @@ Aggiorna la stessa scheda quando le cose cambiano. Quando la persona accetta, ag
 
 | Campo | Contenuto |
 |---|---|
-| Obiettivo | ... |
-| Alternative e impatti | ... |
-| Rischio | R1, perché ... |
-| Prova e criterio | ... |
-| Perimetro | ... |
-| Risultato | ... (<rimando>). Esito: da ottenere. |
-| Decisione e seguito | Proposta il <data>. |
+| Cosa vogliamo | ... |
+| Cosa non sappiamo | R1, perché ... |
+| La prova | ... |
+| Cosa guardiamo | ... |
+
+Decisione: accettata il <data>.
+Esito: ... (<rimando>).
 
 ### Iterazione 2 — <titolo breve>
 
