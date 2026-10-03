@@ -73,7 +73,7 @@ La scheda ha normalmente 60–120 parole. Ogni cella è una frase breve, come la
 |---|---|
 | Cosa vogliamo | Cosa la persona vuole ottenere con questa iterazione, nel linguaggio del dominio. |
 | Cosa non sappiamo | L'identificativo del rischio affrontato, e perché viene prima degli altri. |
-| La prova | Cosa farà l'iterazione per ridurre il rischio, e cosa resta fuori. È una proposta per il lavoro successivo. |
+| Come lo proviamo? | Cosa farà l'iterazione per ridurre il rischio, e cosa resta fuori. È una proposta per il lavoro successivo. |
 | Cosa guardiamo | Quale osservazione dirà se il rischio è ridotto. |
 | Alternative | Solo quando c'è una scelta reale: le altre strade e cosa comportano per il dominio. |
 
@@ -99,7 +99,7 @@ Dopo la proposta, la scheda si aggiorna nel registro con due righe sotto la tabe
 |---|---|
 | Cosa vogliamo | ... |
 | Cosa non sappiamo | R1, perché ... |
-| La prova | ... |
+| Come lo proviamo? | ... |
 | Cosa guardiamo | ... |
 
 Decisione: accettata il <data>.

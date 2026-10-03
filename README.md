@@ -43,7 +43,7 @@ The skill stops at the proposal. Accepting it records an accepted proposal; it d
 
 The analysis record is `ITERATIONS.md`, with the fixed title `# ITERATIONS`. It contains a shared risk list and a chronological list of numbered iteration cards. New iterations append a card; earlier entries remain. Risks keep stable identifiers across iterations. The skill writes only its analysis record; it does not write code, prototypes, or tests.
 
-Each card has four rows: what we want, what we do not know (the risk, and why it comes first), the test, and what we watch. An alternatives row appears only when there is a real choice. The decision and the outcome are added under the card later. It is a practical adaptation of Boehm's one-page risk plan and risk tracking, not a literal reproduction. A card normally fits in 60–120 words, with source references instead of copied technical detail. Planned tests stay proposed, and outcomes remain pending until evidence is supplied.
+Each card has four rows: what we want, what we do not know (the risk, and why it comes first), how we test it, and what we watch. An alternatives row appears only when there is a real choice. The decision and the outcome are added under the card later. It is a practical adaptation of Boehm's one-page risk plan and risk tracking, not a literal reproduction. A card normally fits in 60–120 words, with source references instead of copied technical detail. Planned tests stay proposed, and outcomes remain pending until evidence is supplied.
 
 The dialogue uses domain language and practical ASD-STE100 principles, adapted for Italian. Each language version is one self-contained `SKILL.md`.
 

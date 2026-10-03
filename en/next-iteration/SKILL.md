@@ -73,7 +73,7 @@ The card normally has 60–120 words. Each cell is a short sentence, as you woul
 |---|---|
 | What we want | What the person wants to achieve with this iteration, in the language of the domain. |
 | What we do not know | The identifier of the risk addressed, and why it comes before the others. |
-| The test | What the iteration will do to reduce the risk, and what stays out. It is a proposal for the subsequent work. |
+| How do we test it? | What the iteration will do to reduce the risk, and what stays out. It is a proposal for the subsequent work. |
 | What we watch | Which observation will say whether the risk is reduced. |
 | Alternatives | Only when there is a real choice: the other paths and what they entail for the domain. |
 
@@ -99,7 +99,7 @@ After the proposal, the card is updated in the log with two lines under the tabl
 |---|---|
 | What we want | ... |
 | What we do not know | R1, because ... |
-| The test | ... |
+| How do we test it? | ... |
 | What we watch | ... |
 
 Decision: accepted on <date>.
